@@ -51,12 +51,15 @@ namespace Calculator
             Environment.Exit(0);
             Console.ReadLine();
         }
+        
+        // Aqui ficam todos os metodos
         static void Repetir()
         {
             Console.WriteLine("\ne agora?");
             Console.WriteLine("0. Sair\n1. Soma\n2. Subtracao\n3. Divisao\n4. Multiplicacao");
             Console.Write("\nDigite o numero da operacao: ");
         }
+        
         static void Soma()
         {
             Console.Write("Primeiro valor: ");
@@ -66,6 +69,7 @@ namespace Calculator
             Console.WriteLine("{0} + {1} = {2}", v1, v2, Math.Round((v1 + v2), 2));
 
         }
+        
         static void Sub()
         {
             Console.Write("Primeiro valor: ");
@@ -75,6 +79,7 @@ namespace Calculator
             Console.WriteLine("{0} - {1} = {2}", v1, v2, Math.Round((v1 - v2), 2));
 
         }
+        
         static void Div()
         {
             Console.Write("Primeiro valor: ");
@@ -91,6 +96,7 @@ namespace Calculator
                 Console.WriteLine("{0} / {1} = {2}", v1, v2, Math.Round((v1 / v2), 2));
             }
         }
+        
         static void Mult()
         {
             Console.Write("Primeiro valor: ");
