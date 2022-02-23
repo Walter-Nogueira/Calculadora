@@ -103,7 +103,7 @@ namespace Calculator
             float v1 = float.Parse(Console.ReadLine());
             Console.Write("Segundo valor: ");
             float v2 = float.Parse(Console.ReadLine());
-            Console.WriteLine("{0} x {1} = {2}", v1, v2, Math.Round((v1 * v2), 10));
+            Console.WriteLine("{0} x {1} = {2}", v1, v2, Math.Round((v1 * v2), 2));
 
         }
     }
